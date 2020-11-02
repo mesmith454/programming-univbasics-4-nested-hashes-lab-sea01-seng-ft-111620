@@ -57,7 +57,7 @@ def dennis_ritchies_language
         :languages => ["C"]
       }
     }
-  programmer_hash[ { :dennis_ritchie => {:languages => ["C"]}.map { |k, v| [k.to]
+  programmer_hash[ { :dennis_ritchie => { :languages => ["C"] }.map { |k, v| [k.to_s, v.to_s} ]
 end
 
 def adding_matz
